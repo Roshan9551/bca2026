@@ -1,0 +1,792 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+}
+
+#logo {
+    margin-left: 2px;
+    font-size: 25px;
+    color: #f08804;
+}
+
+input{
+    margin-left: 200px;
+}
+
+button {
+    background-color: #f08804;
+    color: white;
+}
+
+#content{
+    height: 3000px;
+    background-color: gray;
+    
+}
+
+.box1{
+    width: 1473px;
+    height: 420px;
+    background-color: gray;
+    display: flex;
+    
+}
+
+.box1 .boxA{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+}
+.box1 .boxA .image-description{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+
+.box1 .boxA .image-description1{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-weight: 20px;
+    width: 90%;
+    left: 20px;
+}
+.box1 .boxB{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+.box1 .boxB .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box1 .boxB img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1;
+    
+}
+.box1 .boxB img:hover{
+    opacity: 0.7;
+}
+.box1 .boxB .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+.box1 .boxC{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+
+.box1 .boxC img{
+    width: 343.25px;
+    height: 360px;
+    opacity: 1; 
+}
+
+.box1 .boxC img:hover{
+    opacity: 0.7;
+}
+
+.box1 .boxC .image-description{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    width: 90%;
+    left: 5%;
+}
+
+.box1 .boxD{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+.box1 .boxD .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box1 .boxD img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1;
+}
+
+.box1 .boxD img:hover{
+    opacity: 0.7;
+}
+.box1 .boxD .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+
+.box2{
+    width: 1473px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+}
+
+.box2 .boxa{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 0px 20px 20px 20px;
+    position: relative;
+}
+.box2 .boxa img{
+    width: 343.25px;
+    height: 360px;
+    opacity: 1; 
+}
+
+.box2 .boxa img:hover{
+    opacity: 0.7;
+}
+
+.box2 .boxa .image-description{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    width: 90%;
+    left: 5%;
+}
+.box2 .boxb{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 0px 20px 20px 0px;
+    position: relative;
+}
+.box2 .boxb .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box2 .boxb img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1; 
+}
+
+.box2 .boxb img:hover{
+    opacity: 0.7;
+}
+
+.box2 .boxb .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+.box2 .boxc{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 0px 20px 20px 0px;
+    position: relative;
+}
+.box2 .boxc img{
+    width: 343.25px;
+    height: 360px;
+    opacity: 1; 
+}
+
+.box2 .boxc img:hover{
+    opacity: 0.7;
+}
+
+.box2 .boxc .image-description{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    width: 90%;
+    left: 5%;
+}
+.box2 .boxd{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 0px 20px 20px 0px;
+    position: relative;
+}
+.box2 .boxd .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box2 .boxd img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1; 
+}
+
+.box2 .boxd img:hover{
+    opacity: 0.7;
+}
+.box2 .boxd .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: red;
+    width: 90%;
+    left: 20px;
+}
+.box3{
+    width: 1433px;
+    height: 320px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin: 0px 20px 0px 20px;
+}
+.box3 .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box3 .contentbox{
+    width: 1393px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    margin: 45px 20px 25px 20px;
+}
+.box3 .contentbox .A{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .A img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .A img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .B{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .B img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .B img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .C{
+    width: 156.625px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .C img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .C img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .D{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .D img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .D img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .E{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .E img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .E img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .F{
+    width: 156.625px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .F img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .F img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .G{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box3 .contentbox .G img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .G img:hover{
+    opacity: 0.7;
+}
+.box3 .contentbox .H{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 0px 0px 0px;
+}
+.box3 .contentbox .H img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box3 .contentbox .H img:hover{
+    opacity: 0.7;
+}
+.box4{
+    width: 1433px;
+    height: 320px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin: 20px 20px 0px 20px;
+}
+.box4 .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box4 .contentbox{
+    width: 1393px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    margin: 45px 20px 25px 20px;
+}
+.box4 .contentbox .A{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .A img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .A img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .B{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .B img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .B img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .C{
+    width: 156.625px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .C img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .C img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .D{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .D img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .D img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .E{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .E img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .E img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .F{
+    width: 156.625px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .F img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .F img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .G{
+    width: 156.625px;
+    height: 250px;
+    background-color: black;
+    margin: 0px 20px 0px 0px;
+}
+.box4 .contentbox .G img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .G img:hover{
+    opacity: 0.7;
+}
+.box4 .contentbox .H{
+    width: 156.625px;
+    height: 250px;
+    background-color: green;
+    margin: 0px 0px 0px 0px;
+}
+.box4 .contentbox .H img{
+    width: 156.625px;
+    height: 250px;
+    opacity: 1; 
+}
+.box4 .contentbox .H img:hover{
+    opacity: 0.7;
+}
+.box5{
+    width: 1473px;
+    height: 420px;
+    background-color: gray;
+    display: flex;
+    
+}
+
+.box5 .boxA{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+}
+.box5 .boxA .image-description{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxA img{
+    width: 303.25px;
+    height: 260px;
+    margin: 80px 20px 40px 20px;
+    opacity: 1;
+}
+.box5 .boxA img:hover{
+    opacity: 0.7;
+}
+.box5 .boxA .image-description1{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    font-weight: 20px;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxB{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+.box5 .boxB .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxB .contentboz{
+    width: 303.25px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    margin: 40px 20px 40px 20px;
+    justify-content: space-between;
+}
+.box5 .boxB .contentboz .boxa{
+    width: 141.625px;
+    height: 140px;
+    background-color: black;
+    margin: 0px 20px 20px 0px;
+}
+.box5 .boxB .contentboz .boxb{
+    width: 141.625px;
+    height: 140px;
+    background-color: green;
+    margin: 0px 0px 20px 0px;
+}
+.box5 .boxB .contentboz .boxc{
+    width: 141.625px;
+    height: 140px;
+    background-color: pink;
+    margin: 0px 20px 0px 0px;
+}
+.box5 .boxB .contentboz .boxd{
+    width: 141.625px;
+    height: 140px;
+    background-color: red;
+    margin: 0px 0px 0px 0px;
+}
+.box5 .boxB .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxC{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+.box5 .boxC .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxC img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1; 
+}
+
+.box5 .boxC img:hover{
+    opacity: 0.7;
+}
+
+.box5 .boxC .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+
+.box5 .boxD{
+    width: 343.25px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
+.box5 .boxD .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box5 .boxD img{
+    width: 303.25px;
+    height: 300px;
+    margin: 40px 20px 40px 20px;
+    opacity: 1;
+}
+
+.box5 .boxD img:hover{
+    opacity: 0.7;
+}
+.box5 .boxD .image-description{
+    position: absolute;
+    bottom: 10px;
+    color: blue;
+    width: 90%;
+    left: 20px;
+}
+.box6{
+    width: 1433px;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    margin: 0px 20px 0px 20px; 
+}
+.box6 .image-description1{
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-weight: 20px;
+    font-size: x-large;
+    width: 90%;
+    left: 20px;
+}
+.box6 .contentbox{
+    width: 1393px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    margin: 40px 20px 20px 20px;
+}
+.box6 .contentbox .A{
+    width: 223.833px;
+    height: 300px;
+    background-color: black;
+    margin: 0px 10px 0px 0px;
+}
+.box6 .contentbox .B{
+    width: 223.833px;
+    height: 300px;
+    background-color: blue;
+    margin: 0px 10px 0px 0px;
+}
+.box6 .contentbox .C{
+    width: 223.833px;
+    height: 300px;
+    background-color: green;
+    margin: 0px 10px 0px 0px;
+}
+.box6 .contentbox .D{
+    width: 223.833px;
+    height: 300px;
+    background-color: red;
+    margin: 0px 10px 0px 0px;
+}
+.box6 .contentbox .E{
+    width: 223.833px;
+    height: 300px;
+    background-color: purple;
+    margin: 0px 10px 0px 0px;
+}
+.box6 .contentbox .F{
+    width: 223.833px;
+    height: 300px;
+    background-color: brown;
+    margin: 0px 0px 0px 0px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
